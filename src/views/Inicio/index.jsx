@@ -5,23 +5,37 @@ import logoGithub from "../../images/logo_github.png";
 import dibujo from "../../images/hello3.svg"
 import { Boton } from '../../components/Boton';
 import './index.css';
-import Navbar from '../../components/Navbar';
+import NavBar from '../../components/Navbar';
+
 
 const Inicio = () => {
     return(
         <>
-            <Navbar/>
+            <NavBar/>
             <div class = "cover bg-light">
-                <img src = {dibujo} alt = "dibujo"/>
-                <p class="lead text-uppercase mb-1">Hola!</p>
-                <p>Somos Tomas Czernuszka y Lucas Koziupa</p>
-                <p>Somos estudiantes de ORT de la especialidad Informatica</p>
+                <div class="container px-3">
+                    <div class = "mt-5 cover bg-light" >
+                        <div class="row">
+                            <div class="col-lg-6 p-2">
+                                <img src = {dibujo} alt = "dibujo"/>
+                            </div>
+                            <div class="col-lg-6">
+                                <p class="lead text-uppercase mb-1">Hola!</p>
+                                <h1 class="intro-title marker aos-init aos-animate" >Somos Tomas Czernuszka y Lucas Koziupa</h1>
+                                <p class="lead fw-normal mt-3 aos-init aos-animate">Somos estudiantes de ORT de la especialidad Informatica</p>
 
-                <BotonRedes link = "https://www.linkedin.com/" imagenSrc={logoLinkedin}/>
-                <BotonRedes link = "https://github.com/Chulusca?tab=repositories" imagenSrc={logoGithub}/>
-
-                <Boton link = "" nombre = "Contactame!"/>
-            </div>  
+                                <div class="social-nav aos-init aos-animate nav justify-content-left">
+                                    <BotonRedes link = "https://www.linkedin.com/" imagenSrc={logoLinkedin}/>
+                                    <BotonRedes link = "https://github.com/Chulusca?tab=repositories" imagenSrc={logoGithub}/>
+                                </div>
+                                <div class="mt-5">
+                                    <Boton link = "" nombre = "Contactame!"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </>
     )
 }

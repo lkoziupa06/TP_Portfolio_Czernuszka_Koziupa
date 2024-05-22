@@ -1,32 +1,6 @@
-.bg-light{
-    background-color: #f4f6f8 !important;
-}
-
-div{
-    display: block;
-    unicode-bidi: isolate;
-}
-
-.text-uppercase {
-    text-transform: uppercase !important;
-    letter-spacing: 0.05em;
-}
-.mb-1 {
-    margin-bottom: .5rem !important;
-}
-.lead {
-    font-size: 1.25rem;
-    font-weight: 300;
-}
 p {
     margin-top: 0;
     margin-bottom: 1rem;
-}
-*, ::after, ::before {
-    box-sizing: border-box;
-}
-
-p {
     display: block;
     margin-block-start: 1em;
     margin-block-end: 1em;
