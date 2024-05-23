@@ -1,3 +1,4 @@
+import './index.css';
 const Card = ({titulo, locacion, duracion, imagen, texto}) =>{
     return(
         <>
