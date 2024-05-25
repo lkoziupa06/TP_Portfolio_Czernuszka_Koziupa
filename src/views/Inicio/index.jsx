@@ -6,7 +6,7 @@ import dibujo from "../../images/hello3.svg"
 import { Boton } from '../../components/Boton';
 import './index.css';
 import NavBar from '../../components/Navbar';
-import 'index.css'
+
 
 
 const Inicio = () => {
