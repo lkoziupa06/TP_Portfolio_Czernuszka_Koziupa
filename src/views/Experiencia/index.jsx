@@ -1,4 +1,4 @@
-import { Card } from "react-bootstrap"
+import Card from "../../components/Card";
 import imgApp from "../../images/app-development.svg";
 import imgUxUi from "../../images/ui-ux.svg";
 import imgWeb from "../../images/web-programming.svg";
@@ -8,11 +8,11 @@ const Experiencia = () =>{
         <>
             <div class="container-narrow">
                 <div class="text-center mb-5">
-                    <h5 class="marker marker-center">Experiencia</h5>
+                    <h2 class="marker marker-center">Experiencia</h2>
                 </div>
                 <div class="row">
                     <div class="col-md-6">
-                        <Card titulo = "Autos al Rio" locacion="Escuela ORT" duracion = "2023" imagen = {imgWeb} texto = ""/>
+                        <Card titulo = "Autos Al Rio" locacion="Escuela ORT" duracion = "2024" imagen = {imgWeb} texto = ""/>
                     </div>
                     <div class="col-md-6">
                         <Card titulo = "Save & Savor" locacion="Escuela ORT" duracion = "2024" imagen = {imgApp} texto = ""/>
