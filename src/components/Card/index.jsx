@@ -1,4 +1,5 @@
-import './index.css';
+import "./index.css"
+
 const Card = ({titulo, locacion, duracion, imagen, texto}) =>{
     return(
         <>
@@ -11,12 +12,12 @@ const Card = ({titulo, locacion, duracion, imagen, texto}) =>{
                                 {locacion} <small>{duracion}</small>
                             </div>
                         </div>
-                        <img src={imagen} width={48} height={48} alt="icono"></img>
-                    </div>
-                    <div class="card-body px-3 py-2">
-                        <p>{texto}</p>
+                        <img src={imagen} width={55} height={55} alt="icono"></img>
                     </div>
                 </div>
+                <div class="card-body px-3 py-2">
+                        <p>{texto}</p>
+                    </div>
             </div>
         </>
     )

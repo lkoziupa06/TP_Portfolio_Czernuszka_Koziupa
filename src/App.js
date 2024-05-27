@@ -5,6 +5,9 @@ import AcercaDeMi from './views/AcercaDeMi/index.jsx';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Conocimientos from './views/Conocimientos/index.jsx';
 import Experiencia from './views/Experiencia/index.jsx';
+import Educacion from './views/Educacion/index.jsx';
+import Contacto from './views/Contacto/index.jsx';
+import Footer from './views/Footer/index.jsx';
 
 
 function App() {
@@ -14,6 +17,9 @@ function App() {
       <AcercaDeMi/>
       <Conocimientos/>
       <Experiencia/>
+      <Educacion/>
+      <Contacto/>
+      <Footer/>
     </>
   );
 }

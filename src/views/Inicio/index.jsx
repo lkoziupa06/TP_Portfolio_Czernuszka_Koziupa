@@ -7,23 +7,21 @@ import { Boton } from '../../components/Boton';
 import './index.css';
 import NavBar from '../../components/Navbar';
 
-
-
 const Inicio = () => {
     return(
         <>
-            <NavBar/>
             <div class = "cover bg-light">
-                <div class="container px-3">
-                    <div class = "mt-5 cover bg-light" >
+                <NavBar/>
+                <div class="container px-3 mt-5">
+                    <div class = "cover bg-light" >
                         <div class="row">
                             <div class="col-lg-6 p-2">
                                 <img src = {dibujo} alt = "dibujo"/>
                             </div>
                             <div class="col-lg-6">
                                 <p class="lead text-uppercase mb-1">Hola!</p>
-                                <h1 class="intro-title marker aos-init aos-animate" >Somos Tomas Czernuszka y Lucas Koziupa</h1>
-                                <p class="lead fw-normal mt-3 aos-init aos-animate">Somos estudiantes de ORT de la especialidad Informatica</p>
+                                <h1 class="intro-title marker" >Somos Tomas Czernuszka y Lucas Koziupa</h1>
+                                <p class="lead fw-normal mt-3">Somos estudiantes de ORT de la especialidad Informatica</p>
 
                                 <div class="social-nav aos-init aos-animate nav justify-content-left">
                                     <BotonRedes link = "https://www.linkedin.com/" imagenSrc={logoLinkedin}/>

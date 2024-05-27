@@ -1,3 +1,3 @@
 export const Item = ({item, contenido}) =>{
-    return <li><b>{item}:</b> {contenido}</li>;
+    return <li style={{ listStyleType: 'none' }}><b>{item}:</b> {contenido}</li>;
 }

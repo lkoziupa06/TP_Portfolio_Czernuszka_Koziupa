@@ -9,7 +9,7 @@ const NavBar = () =>{
         <Container>
             <Navbar.Brand href="#">Koziupa, Czernuszka y Palachi</Navbar.Brand>
             <Nav className="ms-auto">
-                <Nav.Link className= "nav-link" href="#home">Acerca de Mi</Nav.Link>
+                <Nav.Link className= "nav-link" href="#AcercaDeMi">Acerca de Mi</Nav.Link>
                 <Nav.Link className= "nav-link" href="#features">Conocimientos</Nav.Link>
                 <Nav.Link className= "nav-link" href="#pricing">Experiencia</Nav.Link>
                 <Nav.Link className= "nav-link" href="#pricing">Educacion</Nav.Link>
