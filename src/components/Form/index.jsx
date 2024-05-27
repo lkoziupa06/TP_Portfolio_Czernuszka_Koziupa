@@ -1,7 +1,7 @@
-const Form = () =>{
+const Form = ({link}) =>{
     return(
         <>
-            <form action="" method="POST">
+            <form action={link} method="POST">
                 <div class="form-group my-2">
                     <label for="nombre" class="form-label fw-bolder">Nombre</label>
                     <input class="form-control" type="text" id="nombre" name="nombre" required></input>

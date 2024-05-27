@@ -2,6 +2,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 
+
 const NavBar = () =>{
   return (
     <>
@@ -10,14 +11,15 @@ const NavBar = () =>{
             <Navbar.Brand href="#">Koziupa, Czernuszka y Palachi</Navbar.Brand>
             <Nav className="ms-auto">
                 <Nav.Link className= "nav-link" href="#AcercaDeMi">Acerca de Mi</Nav.Link>
-                <Nav.Link className= "nav-link" href="#features">Conocimientos</Nav.Link>
-                <Nav.Link className= "nav-link" href="#pricing">Experiencia</Nav.Link>
-                <Nav.Link className= "nav-link" href="#pricing">Educacion</Nav.Link>
-                <Nav.Link className= "nav-link" href="#pricing">Contacto</Nav.Link>
+                <Nav.Link className= "nav-link" href="#Conocimientos">Conocimientos</Nav.Link>
+                <Nav.Link className= "nav-link" href="#Experiencia">Experiencia</Nav.Link>
+                <Nav.Link className= "nav-link" href="#Educacion">Educacion</Nav.Link>
+                <Nav.Link className= "nav-link" href="#Contacto">Contacto</Nav.Link>
             </Nav>
         </Container>
       </Navbar>
     </>
+    
   );
 }
 
