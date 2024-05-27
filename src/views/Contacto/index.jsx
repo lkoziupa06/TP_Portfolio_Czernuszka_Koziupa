@@ -10,7 +10,9 @@ const Contacto = () =>{
                 </div>
                 <div class="row">
                     <div class="col-md-6">
-                        
+                        <div class="bg-light my-2 p-3 pt-2">
+                            <Form/>
+                        </div>
                     </div>
                     <div class="col-md-6">
                         <div class="mt-3 px-1">
